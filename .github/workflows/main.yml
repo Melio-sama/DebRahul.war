@@ -6,4 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - run: jar cvf DebRahul.war * && ls
+    - run: 
+    | jar cvf DebRahul.war * && ls
